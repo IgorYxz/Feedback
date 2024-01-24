@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Feedback Form</title>
+</head>
+<body>
+
+<div class="feedback-container">
+  <h2>Deixe seu Feedback</h2>
+  <form action="https://formsubmit.co/igorbarros5805@gmail.com" method="POST">
+    <label for="feedback">Comentários:</label>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea>
+
+    <button type="submit">Enviar Feedback</button>
+  </form>
+
+  <div id="thankYouMessage" style="display: none;">
+    <p>Obrigado pelo seu feedback!</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
